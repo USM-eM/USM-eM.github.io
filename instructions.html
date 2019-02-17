@@ -24,34 +24,36 @@
     <section class="main-content">
       <h1>How to Install USM-eM</h1>
       <h2><a id="3ds" class="anchor" href="#3ds" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>USM-eM for Nintendo 3DS Installation Instructions:</a></h2>
-      <h3>Prerequisites:</h3>
-         - A Nintendo 3DS family console running Luma 8.0 or higher. <br>
-<br>
-	    		Info on Luma installation from normal consoles without any modifications, this can be found <a href="https://3ds.guide">here</a>. (Note that this guide assumes you have followed these instructions and have Luma3DS insatlled).<br>
-			If you are running Luma 7.0.5 or below, update to boot9strap <A href="https://3ds.guide/a9lh-to-b9s.html">here</a>.<br>
-	    		If you are running Luma 7.1, AuReiNAND, or any other CFW, update to boot9strap <a href="https://3ds.guide/updating-b9s.html">here</a>.<br>
-	    <br>
-			- A copy of Super Smash Bros. for Nintendo 3DS<br>
+      <h3> Special thanks to <a href="https://github.com/BreadHax"><u>BreadHax</u></a> for writing these instructions, and <a href="https://github.com/Swiftloke"><u>Swiftloke</u></a> for creating ModMoon!</h3>
+      <h3>What you need:</h3>
+         - A Nintendo 3DS family console running a recent custom firmware. Luma3DS 8.0 is the minimum version for Luma3DS.  <br>
+	    		Info on Luma3DS installation can be found <a href="https://3ds.guide">here</a>. (Note that this guide assumes you have followed these instructions.)<br>
+		 - A copy of Super Smash Bros. for Nintendo 3DS<br>
      - A device capable of transferring files to an SD card.<br>
-      <h3>Instructions:</h3>
-     - Download <a href="https://gbatemp.net/threads/modmoon-a-beautiful-simple-and-compact-mods-manager-for-the-nintendo-3ds.519080/">ModMoon</a>. Be sure to read its instruction manual, it's a really powerful tool! The 3dsx version can be run from the Homebrew Launcher, while the CIA version can be installed to the HOME menu. This guide covers the CIA version.<br>
+
+      <h3>Preparatory work:</h3>
+     - Power off your device. Then, hold Select when pressing the power button.<br>
+     - Select "Enable Game Patching", if it isn't already enabled. Then press Start to save your settings.<br>
+     - Download the .cia file of <a href="https://github.com/Swiftloke/ModMoon/releases">ModMoon</a> onto your SD Card.<br>
      - Download the latest version of USM-eM from our <a href="releases.html">releases page</a>.
-     - On the root of your 3DS' SD card, enter the "3ds" folder. Create it if it doesn't exist.<br>
-     - In the "3ds" folder, drop the ModMoon download you grabbed earlier.<br>
-     - Create a "ModMoon" folder within the "3ds" folder.<br>
-     - Depending on the region of your game, create a folder called "00040000000EDF00" if you have a version of Smash from the USA, "00040000000EE000" if it's a European version, and "00040000000B8B00" if it's a Japanese version.<br>
-     - Extract the root of the USM-eM mod to the folder you just created.<br>
-	   - Turn on your 3DS while holding select to access the Luma configuration menu.<br>
-	   - Turn on "Enable game patching". This is required to load mods properly.<br>
-     - Open ModMoon. If you downloaded the 3dsx version, simply open the Homebrew Launcher and you should find it, and you can skip these next steps. If you grabbed the CIA version, do this:<br>
-     - Open FBI and select "SD".<br>
-     - Navigate to the "3ds" folder.<br>
-     - Select the ModMoon CIA file, and install it.<br>
-     - Return to the HOME menu, and open the newly installed ModMoon.<br>
-     - Follow the on-screen tutorial, being sure to select Smash in your active titles menu and setting it as your current title.<br>
-       - Make sure that a modpack with a description of either "USM-eM - Release 0.1" or "Winds" is selected, then launch Smash!<br>
-       - The title screen should now show the USM-eM logo rather than the default logo, this means the mod loaded properly!<br>
-       - The selected Smash modpacks will always play after Smash is launched from the HOME Menu whether you launch Mod-Moon beforehand or not. If you want to launch vanilla Smash, launch Mod-Moon and disable the active title. Enable it to re-enable loading modpacks.<br>
+
+     <h3>Installing ModMoon:</h3>
+     - Launch FBI on your device. Highlight and select "SD".<br>
+     - Navigate to your ModMoon .cia file, then install it.<br>
+     - Exit FBI and return to the HOME Menu.<br>
+
+     <h3>ModMoon Setup:</h3>
+     - Launch ModMoon and follow its tutorial. Select Smash as the active title.<br>
+     - When you're done, power off your device.<br>
+     - Insert your SD Card into your computer.<br>
+     - Navigate to /3ds/ModMoon. Create a folder called "00040000000EDF00" if you have a version of Smash from the USA, "00040000000EE000" if it's a European version, and "00040000000B8B00" if it's a Japanese version.<br>
+     - Extract USM-eM to the folder you just created. The contents of the "0004" folder should have the "animcmd, effect, sound" folders inside of it.<br>
+     - Create a folder named "SaltySD" on your root, then "smash" inside that folder. Leave it empty.<br>
+     - Reinsert your SD Card into your 3DS, and launch ModMoon.<br>
+     - If prompted with the tutorial, do it again.<br>
+     - If "USM-eM" or "Winds 1.0" shows up on the bottom screen, then it was successful!<br>
+     - Launch the game. The title screen should now show the USM-eM logo rather than the default logo, this means the mod loaded properly!<br>
+     - The selected Smash modpacks will always play after Smash is launched from the HOME Menu whether you launch Mod-Moon beforehand or not. If you want to launch vanilla Smash, launch Mod-Moon and disable the active title. Enable it to re-enable loading modpacks.<br>
 
      <h2><a id="wiiu" class="anchor" href="#wiiu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>USM-eM for Nintendo Wii U Installation Instructions:</a></h2>
      <h3>Prerequisites:</h3>
